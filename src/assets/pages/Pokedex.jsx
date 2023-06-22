@@ -56,7 +56,7 @@ const Pokedex = () => {
         <div className='home__trainer'>
             <div className='home__trainer-header'>
                 <div>
-                    <img src='../public/img/imagen1.png' alt="" />
+                    <img src='../img/imagen1.png' alt="" />
                 </div>
                 <p className='home__trainer-title'>Welcome <span>{trainerName}</span>, find your favorite pokemon</p>
                 <form className='form__trainer' onSubmit={handleSubmit}>

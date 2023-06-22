@@ -18,7 +18,7 @@ const PokedexName = () => {
     return (
         <div>
             <div>
-                <img src='../public/img/imagen1.png' alt="" />
+                <img src='../img/imagen1.png' alt="" />
             </div>
             {
                 hasError
