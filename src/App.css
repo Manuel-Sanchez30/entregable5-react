@@ -1,0 +1,174 @@
+img{
+    width: 100%;
+    max-width: 300px
+}
+
+.home{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+   /*  padding: 1em; */
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    padding-top: 4em;
+    background-color: white;
+}
+
+.home__tittle{
+    color: #FE1936;
+    
+}
+
+.home__body{
+    padding-bottom: 1em;
+}
+
+.home__form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+        
+}
+
+.home__form input{
+    font-size:1.2em;
+    height: 40px;
+    padding: 0.3em;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    background: #f7f6f6;
+
+}
+
+.form__btn{
+    padding: 0.8em;
+    width:100px;
+    border: none;
+    background-color: #D93F3F;
+    color:#FFFFFF;
+    transition: background-color 200ms ease;
+    border-radius: 0.3em;
+    font-size:0.9rem;
+    font-weight: 700;
+}
+
+.form__btn:hover{
+    background-color: #FE1936;
+    cursor: pointer;
+}
+
+.home__img{
+    padding-top: 150px
+}
+
+.home__trainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    padding: 1em;
+}
+
+.home__trainer-header{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.form__trainer{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.home__trainer-title{
+    font-size: 2rem;    
+}
+
+.home__trainer-title span{
+    
+    color:#DD1A1A;
+}
+
+.form__trainer-input{
+    font-size:1.2em;
+    height: 40px;
+    padding: 0.3em;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+    background: #f7f6f6;
+}
+.form__trainer-button{
+    padding: 0.8em;
+    width:100px;
+    border: none;
+    background-color: #D93F3F;
+    color:#FFFFFF;
+    transition: background-color 200ms ease;
+    border-radius: 0.3em;
+    font-size:0.9rem;
+    font-weight: 700;
+}
+
+.form__trainer-button:hover{
+    background-color: #FE1936;
+    cursor: pointer;
+}
+
+.form__trainer-select{
+    font-size: 1.2em;
+    color: gray;
+    padding: 0.1em
+}
+
+/* .footer__home {
+    width: 320px;
+    height:80px;
+    background-color: #DD1A1A;    
+
+}
+
+.footer__home2 {
+
+    height:80px;
+    background-color:  #0C0C0C;    
+
+}
+
+.home__footer{
+    position:relative;
+    padding-top: 2em;
+    
+}
+
+.footer__img{
+    position:absolute;
+    left: 30%;
+    bottom: 5px;
+    
+}
+
+.footer__img2{
+    position:absolute;
+    left: 39%;
+    bottom: 25px;    
+    
+} */
