@@ -6,7 +6,7 @@ const PokeContainer = ({pokemons}) => {
     
 
     return (
-        <div>
+        <div className="fad">
 
             {
                 pokemons?.map(pokemon =>(

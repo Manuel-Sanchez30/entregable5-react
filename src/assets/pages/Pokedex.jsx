@@ -60,7 +60,7 @@ const Pokedex = () => {
                 </div>
                 <p className='home__trainer-title'>Welcome <span>{trainerName}</span>, find your favorite pokemon</p>
                 <form className='form__trainer' onSubmit={handleSubmit}>
-                    <input className='form__trainer-input' ref={searchPokemon} type="text" />
+                    <input className='form__trainer-input' ref={searchPokemon} type="text" placeholder='look for a pokemon' />
                     <button className='form__trainer-button' >Search</button>
                     <select className='form__trainer-select' onChange={handleChangeType}>
                         <option value="all-pokemons">All pokemons</option>
