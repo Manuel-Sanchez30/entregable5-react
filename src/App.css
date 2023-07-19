@@ -16,6 +16,7 @@ img{
 
     padding-top: 4em;
     background-color: white;
+    
 }
 
 .home__tittle{
@@ -75,6 +76,7 @@ img{
     flex-direction: column;
     gap: 1em;
     padding: 1em;
+    
     
 }
 
@@ -226,7 +228,8 @@ img{
     background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin-top: 1em;
-        
+    background: linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(246,235,249,1) 36%, rgba(216,241,246,1) 100%);
+
 
 }
 
@@ -245,6 +248,7 @@ img{
     justify-content: center;
     align-items: center;
     align-content: center;
+    
 }
 
 .pokedexname__name{
